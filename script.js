@@ -149,11 +149,52 @@ function toggleText() {
 	document.getElementById("audio1").style.display = "none"
 	document.getElementById("audio2").style.display = "none"
 	document.getElementById("audio3").style.display = "none"
-	
+	document.getElementById("audio4").style.display = "none"
+	document.getElementById("audio5").style.display = "none"
+	document.getElementById("audio6").style.display = "none"
+	document.getElementById("audio7").style.display = "none"
+	document.getElementById("audio8").style.display = "none"
+	document.getElementById("audio9").style.display = "none"
+	document.getElementById("audio10").style.display = "none"
+	document.getElementById("audio11").style.display = "none"
+	document.getElementById("audio12").style.display = "none"
+	document.getElementById("audio13").style.display = "none"
+	document.getElementById("audio14").style.display = "none"
+	document.getElementById("audio15").style.display = "none"
+	document.getElementById("audio16").style.display = "none"
+	document.getElementById("audio17").style.display = "none"
+	document.getElementById("audio18").style.display = "none"
+	document.getElementById("audio19").style.display = "none"
+	document.getElementById("audio20").style.display = "none"
+	document.getElementById("audio21").style.display = "none"
+	document.getElementById("audio22").style.display = "none"
+	document.getElementById("audio23").style.display = "none"
+	document.getElementById("audio24").style.display = "none"
 	
 	document.getElementById("text1").classList.remove("display-none");
 	document.getElementById("text2").classList.remove("display-none");	
 	document.getElementById("text3").classList.remove("display-none");
+	document.getElementById("text4").classList.remove("display-none");
+	document.getElementById("text5").classList.remove("display-none");
+	document.getElementById("text6").classList.remove("display-none");
+	document.getElementById("text7").classList.remove("display-none");
+	document.getElementById("text8").classList.remove("display-none");
+	document.getElementById("text9").classList.remove("display-none");
+	document.getElementById("text10").classList.remove("display-none");
+	document.getElementById("text11").classList.remove("display-none");
+	document.getElementById("text12").classList.remove("display-none");
+	document.getElementById("text13").classList.remove("display-none");
+	document.getElementById("text14").classList.remove("display-none");
+	document.getElementById("text15").classList.remove("display-none");
+	document.getElementById("text16").classList.remove("display-none");
+	document.getElementById("text17").classList.remove("display-none");
+	document.getElementById("text18").classList.remove("display-none");
+	document.getElementById("text19").classList.remove("display-none");
+	document.getElementById("text20").classList.remove("display-none");
+	document.getElementById("text21").classList.remove("display-none");
+	document.getElementById("text22").classList.remove("display-none");
+	document.getElementById("text23").classList.remove("display-none");
+	document.getElementById("text24").classList.remove("display-none");
 	}
 
 }
