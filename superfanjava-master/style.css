@@ -1,0 +1,218 @@
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0; 
+	background-color: #000000;
+	display: block;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Delius+Unicase:400,700&display=swap');
+
+.red {
+	height: 10%;
+	width: 100%;
+	background-color: red;
+	display: flex;
+}
+
+.parent {
+	height: 100%;
+	width:100%;
+	display:flex;
+}
+
+.parent2 {
+	height: 100%;
+	width:100%;
+	display:flex;
+}
+
+.button {
+	display: flex;
+}
+
+.blue {
+	height: 90%;
+	width: 100%;
+	background-color: blue;
+}
+
+.orange {
+	height: 50%;
+	width: 100%;
+	background-color: orange;
+}
+
+.green {
+	height: 50%;
+	width: 100%;
+	background-color: green;
+	display: flex;
+}
+
+.pink{
+	height: 100%;
+	width: calc(100%/6);
+	background-color: white;
+	display: flex;
+}
+
+img:hover{
+  animation: shake 0.5s;
+  animation-iteration-count: 0.2 second;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.purple{
+	height: 100%;
+	width: calc(100%/6);
+	background-color: white;
+	display: flex;
+}
+
+.title{
+	height: 100%;
+	width: 100%;
+	background-color: #99ACAD;
+	display: flex;
+}
+
+.random{
+	height: 100%;
+	width: 50%;
+	background-color: #B4CACC;
+	display: flex;
+}
+
+.text{
+	height: 100%;
+	width: 50%;
+	background-color: #D9D4D6;
+	display: flex;
+}
+
+.contain-image {
+	width: 100%;
+	height: 100%;
+}
+
+
+h1 {
+	font-size: 50;
+	font-family: 'Delius Unicase', cursive;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 150px;
+}
+
+h2 {
+	font-size: 50;
+	font-family: 'Delius Unicase', cursive;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 150px;
+}
+
+.display-none {
+	display: none;
+}
+
+@media only screen and (max-width: 1577px) {
+
+h2 {
+	font-size: 40;
+}
+}
+
+h3 {
+	font-size: 10;
+}
+
+@media only screen and (max-width: 1277px) {
+
+.red {
+	height: 20%;
+	display: block;
+}
+.parent {
+	height: 50%;
+}
+}
+
+@media only screen and (max-width: 1224px) {
+	
+	.orange {
+		display: flex;
+		width: 100%;
+		height: 100%;
+	}
+	
+	.green {
+		display: block;
+		width: 50%;
+		height: 100%;+
+	}
+	
+	.pink {
+		height: 50%;
+		width: 100%;
+		background-color: white;
+		display: flex;
+}
+	.purple {
+		height: 50%;
+		width: 100%;
+		background-color: white;
+		display: flex;
+}
+	
+}
+
+@media only screen and (max-width: 827px) {
+	
+	.orange {
+		display: block;
+	}
+	
+	.text{
+	height: 50%;
+	width: 50%;
+	display: flex;
+}
+	
+	.random{
+	height: 50%;
+	width: 50%;
+	display: flex;
+}
+
+.pink{
+	height: 50%;
+	width: 200%;
+	background-color: pink;
+	display: flex;
+}
+
+.purple{
+	height: 50%;
+	width: 200%;
+	background-color: purple;
+	display: flex;
+}
+
+
+}
