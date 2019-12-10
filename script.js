@@ -23,129 +23,180 @@ var t = document.getElementById("audio20");
 var u = document.getElementById("audio21");
 var v = document.getElementById("audio22");
 var w = document.getElementById("audio23");
+var x = document.getElementById("audio24");
+
+var a1 = new Audio("sounds/1.mp3");
+var a2 = new Audio("sounds/2.mp3");
+var a3 = new Audio("sounds/3.mp3");
+var a4 = new Audio("sounds/4.mp3");
+var a5 = new Audio("sounds/5.mp3");
+var a6 = new Audio("sounds/6.mp3");
+var a7 = new Audio("sounds/7.mp3");
+var a8 = new Audio("sounds/8.mp3");
+var a9 = new Audio("sounds/9.mp3");
+var a10 = new Audio("sounds/10.mp3");
+var a11 = new Audio("sounds/11.mp3");
+var a12 = new Audio("sounds/12.mp3");
+var a13 = new Audio("sounds/13.mp3");
+var a14 = new Audio("sounds/14.mp3");
+var a15 = new Audio("sounds/15.mp3");
+var a16 = new Audio("sounds/16.mp3");
+var a17 = new Audio("sounds/17.mp3");
+var a18 = new Audio("sounds/18.mp3");
+var a19 = new Audio("sounds/19.mp3");
+var a20 = new Audio("sounds/20.mp3");
+var a21 = new Audio("sounds/21.mp3");
+var a22 = new Audio("sounds/22.mp3");
+var a23 = new Audio("sounds/23.mp3");
+var a24 = new Audio("sounds/24.mp3");
+
+a.addEventListener("click", playAudio)
+b.addEventListener("click", playAudio1);
+c.addEventListener("click", playAudio2);
+d.addEventListener("click", playAudio3)
+e.addEventListener("click", playAudio4);
+f.addEventListener("click", playAudio5);
+g.addEventListener("click", playAudio6);
+h.addEventListener("click", playAudio7);
+i.addEventListener("click", playAudio8);
+j.addEventListener("click", playAudio9);
+k.addEventListener("click", playAudio10);
+l.addEventListener("click", playAudio11);
+m.addEventListener("click", playAudio12);
+n.addEventListener("click", playAudio13);
+o.addEventListener("click", playAudio14);
+p.addEventListener("click", playAudio15);
+q.addEventListener("click", playAudio16);
+r.addEventListener("click", playAudio17);
+s.addEventListener("click", playAudio18);
+t.addEventListener("click", playAudio19);
+u.addEventListener("click", playAudio20);
+v.addEventListener("click", playAudio21);
+w.addEventListener("click", playAudio22);
+x.addEventListener("click", playAudio23);
+
 
 function playAudio() {
-  var x = document.getElementById("audio1");
-  a.play();
+	a1.load();
+    a1.play();
 }
 
-function playAudio() {
-  var x = document.getElementById("audio2");
-  b.play();
+function playAudio1() {
+	a2.load();
+    a2.play();
 }
 
-function playAudio() {
-	var x = document.getElementById("audio3");
-  c.play();
+function playAudio2() {
+	a3.load();
+    a3.play();
 }
 
-function playAudio() {
-	var x = document.getElementById("audio4");
-  d.play();
+function playAudio3() {
+	a4.load();
+    a4.play();
 }
 
-function playAudio() {
-	var x = document.getElementById("audio5");
-  e.play();
+function playAudio4() {
+	a5.load();
+    a5.play();
 }
 
-function playAudio() {
-	var x = document.getElementById("audio6");
-  x.play();
+function playAudio5() {
+	a6.load();
+    a6.play();
 }
 
-function playAudio() {
-	var x = document.getElementById("audio7");
-  f.play();
+function playAudio6() {
+	a7.load();
+    a7.play();
 }
 
-function playAudio() {
-	var x = document.getElementById("audio8");
-  g.play();
+function playAudio7() {
+	a8.load();
+    a8.play();;
 }
 
-function playAudio() {
-	var x = document.getElementById("audio9");
-  h.play();
+function playAudio8() {
+	a9.load();
+    a9.play();
 }
 
-function playAudio() {
-	var x = document.getElementById("audio10");
-  i.play();
+function playAudio9() {
+	a10.load();
+    a10.play();
 }
 
-function playAudio() {
-	var x = document.getElementById("audio11");
-  j.play();
+function playAudio10() {
+	a11.load();
+    a11.play();
 }
 
-function playAudio() {
-	var x = document.getElementById("audio12");
-  k.play();
+function playAudio11() {
+	a12.load();
+    a12.play();
 }
 
-function playAudio() {
-	var x = document.getElementById("audio13");
-  l.play();
+function playAudio12() {
+	a13.load();
+    a13.play();
 }
 
-function playAudio() {
-	var x = document.getElementById("audio14");
-  m.play();
+function playAudio13() {
+	a14.load();
+    a14.play();
 }
 
-function playAudio() {
-	var x = document.getElementById("audio15");
-  n.play();
+function playAudio14() {
+	a15.load();
+    a15.play();
 }
 
-function playAudio() {
-	var x = document.getElementById("audio16");
-  o.play();
+function playAudio15() {
+	a16.load();
+    a16.play();
 }
 
-function playAudio() {
-	var x = document.getElementById("audio17");
-  p.play();
+function playAudio16() {
+	a17.load();
+    a17.play();
 }
 
-function playAudio() {
-	var x = document.getElementById("audio18");
-  q.play();
+function playAudio17() {
+	a18.load();
+    a18.play();
 }
 
-function playAudio() {
-	var x = document.getElementById("audio19");
-  r.play();
+function playAudio18() {
+	a19.load();
+    a19.play();
 }
 
-function playAudio() {
-	var x = document.getElementById("audio20");
-  s.play();
+function playAudio19() {
+	a20.load();
+    a20.play();
 }
 
-function playAudio() {
-	var x = document.getElementById("audio21");
-  t.play();
+function playAudio20() {
+	a21.load();
+    a21.play();
 }
 
-function playAudio() {
-	var x = document.getElementById("audio22");
-  u.play();
+function playAudio21() {
+	a22.load();
+    a22.play();
 }
 
-function playAudio() {
-	var x = document.getElementById("audio23");
-  v.play();
+function playAudio22() {
+	a23.load();
+    a23.play();
 }
 
-function playAudio() {
-	var x = document.getElementById("audio24");
-  w.play();
+function playAudio23() {
+	a24.load();
+    a24.play();
 }
 
-function toggleText() {
-	if(i = 1) { 
+function toggleText() { 
 	document.getElementById("audio1").style.display = "none"
 	document.getElementById("audio2").style.display = "none"
 	document.getElementById("audio3").style.display = "none"
@@ -195,7 +246,84 @@ function toggleText() {
 	document.getElementById("text22").classList.remove("display-none");
 	document.getElementById("text23").classList.remove("display-none");
 	document.getElementById("text24").classList.remove("display-none");
-	}
-
 }
 
+function playRandomSound() {
+	var nug
+	nug = Math.floor(Math.random() * 24)
+	
+	if (nug == 0) {
+		a1.play()
+	}
+	if (nug == 1) {
+		a2.play()
+	}
+	if (nug == 2) {
+		a3.play()
+	}
+	if (nug == 3) {
+		a4.play()
+	}
+	if (nug == 4) {
+		a5.play()
+	}
+	if (nug == 5) {
+		a6.play()
+	}
+	if (nug == 6) {
+		a7.play()
+	}
+	if (nug == 7) {
+		a8.play()
+	}
+	if (nug == 8) {
+		a9.play()
+	}
+	if (nug == 9) {
+		a10.play()
+	}
+	if (nug == 10) {
+		a11.play()
+	}
+	if (nug == 11) {
+		a12.play()
+	}
+	if (nug == 12) {
+		a13.play()
+	}
+	if (nug == 13) {
+		a14.play()
+	}
+	if (nug == 14) {
+		a15.play()
+	}
+	if (nug == 15) {
+		a16.play()
+	}
+	if (nug == 16) {
+		a17.play()
+	}
+	if (nug == 17) {
+		a.play()
+	}
+	if (nug == 18) {
+		a18.play()
+	}
+	if (nug == 19) {
+		a19.play()
+	}
+	if (nug == 20) {
+		a20.play()
+	}
+	if (nug == 21) {
+		a21.play()
+	}
+	if (nug == 22) {
+		a22.play()
+	}
+	if (nug == 23) {
+		a23.play()
+	}
+	
+//* it goes to 23 because the first one is 0
+}

@@ -129,8 +129,6 @@ h2 {
 
 .display-none {
 	display: none;
-	height: 100%;
-	width: calc(100%/6);
 }
 
 @media only screen and (max-width: 1577px) {
@@ -217,4 +215,12 @@ h3 {
 }
 
 
+}
+
+@media only screen and (max-width: 776px) {
+	
+	h1 {
+		font-size: 40;
+	}
+	
 }
